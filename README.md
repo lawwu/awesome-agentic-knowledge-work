@@ -18,6 +18,7 @@ I considered organizing things by category but thought a timeline organization w
 
 - [/simplify and /batch (Boris Cherny)](https://x.com/bcherny/status/2027534984534544489) - Two new Claude Code skills: `/simplify` automates shepherding PRs to production by streamlining diffs and reducing complexity; `/batch` handles parallelizable code migrations across multiple files simultaneously. *(2026-02-28)*
 - [Harness Engineering (OpenAI)](https://openai.com/index/harness-engineering/) - OpenAI's framework for agent-first software development, where Codex agents generate, test, and deploy production systems while engineers focus on designing environments, specifying intent, and structured feedback. *(2026-02-28)*
+- [GPT-5.3-Codex (OpenAI)](https://openai.com/index/introducing-gpt-5-3-codex/) - OpenAI's most capable agentic coding model, combining frontier coding performance with the reasoning of GPT-5.2. Runs 25% faster, sets SOTA on SWE-Bench Pro and Terminal-Bench, and supports real-time steering mid-task. Available in Codex app, CLI, IDE extension, and web. *(2026-02-05)*
 - [lawwu/agentic-ml-plugin](https://github.com/lawwu/agentic-ml-plugin) - Tools that make each step of the machine learning lifecycle easier. *(2026-02-28)*
 - [Design (Anthropic)](https://github.com/anthropics/knowledge-work-plugins/tree/main/design) - Supports design critique, design systems, UX writing, accessibility review, research synthesis, and developer handoff. *(2026-02-24)*
 - [Human Resources (Anthropic)](https://github.com/anthropics/knowledge-work-plugins/tree/main/human-resources) - Covers recruiting, onboarding, performance reviews, policy guidance, and compensation analysis. *(2026-02-24)*
@@ -81,6 +82,7 @@ I considered organizing things by category but thought a timeline organization w
 ### May 2025
 
 - [Claude Sonnet 4 and Opus 4](https://www.anthropic.com/news/claude-4) - Anthropic's Claude 4 model family, generally available. *(2025-05-22)*
+- [Codex (OpenAI)](https://openai.com/index/introducing-codex/) - OpenAI's cloud-based coding agent powered by codex-1 (an o3 variant fine-tuned for software engineering). Runs tasks in isolated sandboxes with your repo preloaded, can write features, fix bugs, run tests, and propose PRs. Accessible via ChatGPT sidebar. *(2025-05-16)*
 
 ### March 2025
 
