@@ -40,6 +40,7 @@ I considered organizing things by category but thought a timeline organization w
 - [claude-code-setup](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup) - Skill to help Claude set itself up. *(2026-01-16)*
 - [find-skills](https://skills.sh/vercel-labs/skills/find-skills) - Helps you discover and install skills from the open agent skills ecosystem. *(2026-01-14)*
 - [skills.sh](https://skills.sh/) - Open Agent Skills Ecosystem. *(2026-01-14)*
+- [Claude Cowork (Anthropic)](https://claude.com/blog/cowork-research-preview) - Desktop app that gives Claude access to your computer's folders to read, edit, and create files autonomously. Built with Claude Code in ~10 days, bringing agentic capabilities to non-developers. Available as a research preview for Claude Max subscribers. *(2026-01-12)*
 - [code-simplifier](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier) - Reviews changed code for reuse, quality, and efficiency, then fixes any issues found. *(2026-01-09)*
 - [Sentry's Skills](https://github.com/getsentry/skills/) - Skills from Sentry's team. *(2026-01-05)*
 
