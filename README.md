@@ -19,8 +19,6 @@ I considered organizing things by category but thought a timeline organization w
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) - AI agents running autonomous ML research on single-GPU nanochat training. The agent modifies training code, trains for 5 minutes, evaluates, keeps or discards the change, and repeats overnight. You write `program.md` to define the research org — "programming the program." *(2026-03-01)*
 - [Code Review Plugin (Claude Code)](https://github.com/anthropics/claude-code/tree/main/plugins/code-review) - Multi-agent automated PR review. Launches 5 parallel Sonnet agents that independently audit CLAUDE.md compliance, scan for bugs, analyze git blame/history, and review code comments. Uses confidence-based scoring (0–100) to filter false positives before posting. *(2026-03-05)*
 - [Agent SDK Dev Plugin (Claude Code)](https://github.com/anthropics/claude-code/tree/main/plugins/agent-sdk-dev) - End-to-end scaffolding and verification for Claude Agent SDK applications. Interactively creates projects, installs the latest SDK, generates config and environment files, runs type checking, and verifies the setup against best practices using specialized verifier agents. *(2026-03-05)*
-- [OpenClaw](https://github.com/openclaw/openclaw) - Personal AI assistant you run on your own devices, connecting to 20+ messaging channels. Handles daily briefings, research crons, memory maintenance, calendar management, and proactive notifications — sustained agentic knowledge work operating autonomously across days and weeks. *(2026-02-15)*
-
 ### February 2026
 
 - [/simplify and /batch (Boris Cherny)](https://x.com/bcherny/status/2027534984534544489) - Two new Claude Code skills: `/simplify` automates shepherding PRs to production by streamlining diffs and reducing complexity; `/batch` handles parallelizable code migrations across multiple files simultaneously. *(2026-02-28)*
@@ -60,6 +58,7 @@ I considered organizing things by category but thought a timeline organization w
 
 ### November 2025
 
+- [OpenClaw](https://github.com/openclaw/openclaw) - Personal AI assistant you run on your own devices, connecting to 20+ messaging channels. Handles daily briefings, research crons, memory maintenance, calendar management, and proactive notifications — sustained agentic knowledge work operating autonomously across days and weeks. *(2025-11-25)*
 - [Claude Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5) - Anthropic's most capable model release. *(2025-11-24)*
 - [skills (OpenAI)](https://github.com/openai/skills) - OpenAI Agent Skills used in Codex. *(2025-11-25)*
 - [plugin-dev](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev) - A comprehensive toolkit for developing Claude Code plugins with expert guidance on hooks, MCP integration, plugin structure, and marketplace publishing. *(2025-11-20)*
