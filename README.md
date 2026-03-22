@@ -16,6 +16,10 @@ I considered organizing things by category but thought a timeline organization w
 
 ### March 2026
 
+- [LangChain + NVIDIA Enterprise Agentic AI Platform](https://blog.langchain.com/nvidia-enterprise/) - LangChain and NVIDIA announced a comprehensive enterprise platform for building, deploying, and monitoring production-grade AI agents at scale. Combines LangSmith observability with NVIDIA AI infrastructure. Announced at GTC 2026. *(2026-03-16)*
+- [Claude Code v2.1.76 — Agent Teams, 1M Context GA](https://code.claude.com/docs/en/changelog) - Major Claude Code release: Agent Teams enables parallel multi-agent development with a team lead coordinating independent teammates; 1M token context window now GA for Opus 4.6 and Sonnet 4.6; MCP elicitation lets MCP servers request structured input mid-task; new hooks system for workflow automation. *(2026-03-13)*
+- [Agentic AI Foundation (Linux Foundation)](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation) - Anthropic donated the Model Context Protocol (MCP) to the newly established Agentic AI Foundation, a Linux Foundation directed fund co-founded by Anthropic, Block, and OpenAI with support from Google, Microsoft, Amazon, and others. MCP becomes a community open standard. *(2026-03-05)*
+- [Anthropic Institute](https://gigazine.net/gsc_news/en/20260312-launching-anthropic-institute/) - Anthropic launched a dedicated research institute to study AI-related social issues, safety, and policy — with a Washington DC office focused on public policy engagement. *(2026-03-11)*
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) - AI agents running autonomous ML research on single-GPU nanochat training. The agent modifies training code, trains for 5 minutes, evaluates, keeps or discards the change, and repeats overnight. You write `program.md` to define the research org — "programming the program." *(2026-03-01)*
 
 ### February 2026
