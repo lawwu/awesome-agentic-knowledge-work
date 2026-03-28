@@ -16,6 +16,7 @@ I considered organizing things by category but thought a timeline organization w
 
 ### March 2026
 
+- [garrytan/gstack](https://github.com/garrytan/gstack) - Y Combinator CEO Garry Tan's open-source Claude Code skills for planning, code review, QA, and shipping. Eight opinionated workflow skills (`/plan-ceo-review`, `/review`, `/ship`, `/qa`, `/browse`, `/retro`, etc.) backed by a persistent headless Chromium daemon. Connects code changes to actual application behavior through route-aware QA and structured release workflows. *(2026-03-14)*
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) - AI agents running autonomous ML research on single-GPU nanochat training. The agent modifies training code, trains for 5 minutes, evaluates, keeps or discards the change, and repeats overnight. You write `program.md` to define the research org — "programming the program." *(2026-03-01)*
 
 ### February 2026
