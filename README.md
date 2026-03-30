@@ -31,6 +31,7 @@ I considered organizing things by category but thought a timeline organization w
 
 ### January 2026
 
+- [Management as AI Superpower (Ethan Mollick)](https://www.oneusefulthing.org/p/management-as-ai-superpower) - Wharton professor Ethan Mollick's framework for AI delegation based on three variables: Human Baseline Time, Probability of Success, and AI Process Time. Shows how management skills — clear instructions, effective evaluation, and structured feedback — are the real superpower for agentic work. Includes results from an experimental UPenn class where MBA students built startups in four days using Claude Code and other AI tools, achieving "an order of magnitude" more progress than pre-AI semesters. *(2026-01-27)*
 - [Bio Research (Anthropic)](https://github.com/anthropics/knowledge-work-plugins/tree/main/bio-research) - Connects to preclinical research tools and databases to accelerate early-stage life sciences R&D. *(2026-01-29)*
 - [Customer Support (Anthropic)](https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support) - Helps triage tickets, draft responses, package escalations, and turn resolved issues into knowledge base articles. *(2026-01-29)*
 - [Data (Anthropic)](https://github.com/anthropics/knowledge-work-plugins/tree/main/data) - Queries, analyzes, and visualizes datasets with SQL, statistics, dashboards, and result validation. *(2026-01-29)*
