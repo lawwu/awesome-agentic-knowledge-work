@@ -15,10 +15,13 @@ I considered organizing things by category but thought a timeline organization w
 ## Timeline
 
 ### March 2026
+- [ChatPRD/tradclaw](https://github.com/ChatPRD/tradclaw) - A scaffold for turning a general-purpose assistant into a proactive household or personal operator, with modules for routines, reminders, information management, and durable support workflows. A good example of agentic knowledge work aimed at family and home operations rather than coding alone. *(2026-03-??)*
 
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) - AI agents running autonomous ML research on single-GPU nanochat training. The agent modifies training code, trains for 5 minutes, evaluates, keeps or discards the change, and repeats overnight. You write `program.md` to define the research org — "programming the program." *(2026-03-01)*
 
 ### February 2026
+- [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) - An open agent framework from Nous Research for tool use, task execution, and longer-running autonomous workflows. Relevant here as infrastructure for agents that can carry multi-step knowledge work instead of only answering prompts. *(2026-02-??)*
+- [garrytan/gbrain](https://github.com/garrytan/gbrain) - A local-first personal knowledge and memory system for AI agents, built around durable notes, search, and retrieval over your own corpus. A strong fit for agentic knowledge work because it gives agents persistent context across sessions instead of starting cold each time. *(2026-02-??)*
 
 - [/simplify and /batch (Boris Cherny)](https://x.com/bcherny/status/2027534984534544489) - Two new Claude Code skills: `/simplify` automates shepherding PRs to production by streamlining diffs and reducing complexity; `/batch` handles parallelizable code migrations across multiple files simultaneously. *(2026-02-28)*
 - [Harness Engineering (OpenAI)](https://openai.com/index/harness-engineering/) - OpenAI's framework for agent-first software development, where Codex agents generate, test, and deploy production systems while engineers focus on designing environments, specifying intent, and structured feedback. *(2026-02-28)*
