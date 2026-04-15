@@ -17,6 +17,7 @@ I considered organizing things by category but thought a timeline organization w
 ### April 2026
 
 - [nowork-studio/toprank](https://github.com/nowork-studio/toprank) - Open-source MIT Claude Code plugin with 9 SEO and Google Ads skills. Connects Google Search Console, PageSpeed Insights, and the Google Ads API so teams can ship meta tag rewrites, JSON-LD schema generation, keyword bid adjustments, CMS content pushes, and related marketing workflow fixes directly from an agentic coding loop. *(2026-04-11)*
+- [garrytan/gbrain](https://github.com/garrytan/gbrain) - Y Combinator CEO Garry Tan's open-source agent brain. 25 skills for memory ingestion, entity enrichment, daily briefings, and autonomous overnight maintenance. Stores knowledge as compiled-truth + timeline markdown pages indexed via hybrid search (vector + keyword + RRF). Ships PGLite (embedded Postgres, no server), 30+ MCP tools, and integration recipes for Gmail, Calendar, voice, X, and Circleback. The brain compounds nightly: agents enrich person/company pages, fix citations, and auto-escalate enrichment tiers while you sleep. *(2026-04-05)*
 
 ### March 2026
 
