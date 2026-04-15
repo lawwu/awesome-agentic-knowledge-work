@@ -15,13 +15,13 @@ I considered organizing things by category but thought a timeline organization w
 ## Timeline
 
 ### March 2026
-- [ChatPRD/tradclaw](https://github.com/ChatPRD/tradclaw) - A scaffold for turning a general-purpose assistant into a proactive household or personal operator, with modules for routines, reminders, information management, and durable support workflows. A good example of agentic knowledge work aimed at family and home operations rather than coding alone. *(2026-03-??)*
+- [ChatPRD/tradclaw](https://github.com/ChatPRD/tradclaw) - A scaffold for turning a general-purpose assistant into a proactive household or personal operator, with modules for routines, reminders, information management, and durable support workflows. A good example of agentic knowledge work aimed at family and home operations rather than coding alone. *(2026-04-14)*
 
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) - AI agents running autonomous ML research on single-GPU nanochat training. The agent modifies training code, trains for 5 minutes, evaluates, keeps or discards the change, and repeats overnight. You write `program.md` to define the research org — "programming the program." *(2026-03-01)*
 
 ### February 2026
-- [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) - An open agent framework from Nous Research for tool use, task execution, and longer-running autonomous workflows. Relevant here as infrastructure for agents that can carry multi-step knowledge work instead of only answering prompts. *(2026-02-??)*
-- [garrytan/gbrain](https://github.com/garrytan/gbrain) - A local-first personal knowledge and memory system for AI agents, built around durable notes, search, and retrieval over your own corpus. A strong fit for agentic knowledge work because it gives agents persistent context across sessions instead of starting cold each time. *(2026-02-??)*
+- [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) - An open agent framework from Nous Research for tool use, task execution, and longer-running autonomous workflows. Relevant here as infrastructure for agents that can carry multi-step knowledge work instead of only answering prompts. *(2025-07-23)*
+- [garrytan/gbrain](https://github.com/garrytan/gbrain) - A local-first personal knowledge and memory system for AI agents, built around durable notes, search, and retrieval over your own corpus. A strong fit for agentic knowledge work because it gives agents persistent context across sessions instead of starting cold each time. *(2026-04-05)*
 
 - [/simplify and /batch (Boris Cherny)](https://x.com/bcherny/status/2027534984534544489) - Two new Claude Code skills: `/simplify` automates shepherding PRs to production by streamlining diffs and reducing complexity; `/batch` handles parallelizable code migrations across multiple files simultaneously. *(2026-02-28)*
 - [Harness Engineering (OpenAI)](https://openai.com/index/harness-engineering/) - OpenAI's framework for agent-first software development, where Codex agents generate, test, and deploy production systems while engineers focus on designing environments, specifying intent, and structured feedback. *(2026-02-28)*
@@ -91,6 +91,9 @@ I considered organizing things by category but thought a timeline organization w
 - [Claude Code GitHub Action 1.0](https://github.com/anthropics/claude-code-action/) - Official GitHub Action for running Claude Code in CI/CD pipelines, enabling automated agentic workflows on pull requests and issues. *(2025-08-26)*
 - [Claude Opus 4.1](https://www.anthropic.com/news/claude-opus-4-1) - Anthropic's flagship model release. *(2025-08-05)*
 
+### June 2026
+- [Karpathy's LLM wiki idea](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) ([tweet](https://x.com/karpathy/status/2039805659525644595)) - Andrej Karpathy's sketch of an LLM-native wiki, a durable, editable knowledge substrate where agents and humans can iteratively build, retrieve, and refine shared understanding. Strongly aligned with agentic knowledge work as memory and synthesis infrastructure. *(2026-06-30)*
+
 ### May 2025
 
 - [Claude Sonnet 4 and Opus 4](https://www.anthropic.com/news/claude-4) - Anthropic's Claude 4 model family, generally available. *(2025-05-22)*
@@ -99,6 +102,9 @@ I considered organizing things by category but thought a timeline organization w
 ### March 2025
 
 - [OpenAI Responses API](https://openai.com/index/new-tools-and-features-in-the-responses-api/) - OpenAI's new core primitive for building agentic applications, replacing the Assistants API. Includes built-in tools for web search, file search, and computer use. *(2025-03-11)*
+
+### April 2026
+- [Agentic Parenting and Homeschooling](https://www.youtube.com/watch?v=yiJOTCRVWjc) - A concrete walkthrough of using agents to support parenting and homeschool operations, including reminders, information capture, and family workflow management. Useful as a real-world applied example of agentic knowledge work in the home. *(2026-04-??)*
 
 ### April 2025
 
