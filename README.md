@@ -1,6 +1,12 @@
 # Awesome Agentic Knowledge Work (AKW)
 
-A curated list of projects, agents, skills and other things that handle increasingly larger chunks of knowledge work, what I'm calling "agentic knowledge work" (AKW)
+A curated list of projects, agents, skills and other things that handle increasingly larger chunks of knowledge work, what I'm calling "agentic knowledge work" (AKW). Currently I think of agents as a combination of a model and an agent harness. This combination allows the agent to call tools, accomplish tasks and do work.
+
+Some examples:
+
+- Claude Code (Agent) = Claude Opus/Sonnet/Haiku (Model) + Claude Code CLI (Harness)
+- Codex (Agent) = gpt-5.3-Codex (Model) + Codex CLI (Harness)
+- ChatGPT (Agent) = gpt-5.2 (Model) + ChatGPT UI (Harness)
 
 ## What Counts
 
@@ -16,24 +22,27 @@ I considered organizing things by category but thought a timeline organization w
 
 ### April 2026
 
+- [Codex for Almost Everything (OpenAI)](https://openai.com/index/codex-for-almost-everything/) - Major Codex desktop app update adding background computer use (parallel agents with their own cursor on macOS), an in-app browser for frontend iteration, image generation via gpt-image-1.5, 90+ new plugins, GitHub PR review support, multi-terminal tabs, SSH devbox connections, and memory/automations that let Codex schedule and continue long-running tasks across days. *(2026-04-16)* · `Harness`
+- [Claude Code Desktop Redesign (Anthropic)](https://claude.com/blog/claude-code-desktop-redesign) - Redesigned Claude Code desktop app introducing a sidebar for managing multiple sessions, drag-and-drop workspace layout, and an integrated terminal and file editor, enabling parallel development across multiple repositories. *(2026-04-14)* · `Harness`
 - [nowork-studio/toprank](https://github.com/nowork-studio/toprank) - Open-source MIT Claude Code plugin with 9 SEO and Google Ads skills. Connects Google Search Console, PageSpeed Insights, and the Google Ads API so teams can ship meta tag rewrites, JSON-LD schema generation, keyword bid adjustments, CMS content pushes, and related marketing workflow fixes directly from an agentic coding loop. *(2026-04-11)*
 - [garrytan/gbrain](https://github.com/garrytan/gbrain) - Y Combinator CEO Garry Tan's open-source agent brain. 25 skills for memory ingestion, entity enrichment, daily briefings, and autonomous overnight maintenance. Stores knowledge as compiled-truth + timeline markdown pages indexed via hybrid search (vector + keyword + RRF). Ships PGLite (embedded Postgres, no server), 30+ MCP tools, and integration recipes for Gmail, Calendar, voice, X, and Circleback. The brain compounds nightly: agents enrich person/company pages, fix citations, and auto-escalate enrichment tiers while you sleep. *(2026-04-05)*
 
 ### March 2026
 
 - [garrytan/gstack](https://github.com/garrytan/gstack) - Y Combinator CEO Garry Tan's open-source Claude Code skills for planning, code review, QA, and shipping. Eight opinionated workflow skills (`/plan-ceo-review`, `/review`, `/ship`, `/qa`, `/browse`, `/retro`, etc.) backed by a persistent headless Chromium daemon. Connects code changes to actual application behavior through route-aware QA and structured release workflows. *(2026-03-14)*
+- [Labor market impacts of AI (Anthropic)](https://www.anthropic.com/research/labor-market-impacts) - Introduces "observed exposure," a measure combining LLM capabilities with actual Claude usage patterns, to assess AI's employment effects. Finds no systematic unemployment rise among highly exposed workers through 2024, but detects tentative hiring slowdowns for younger workers entering exposed occupations. *(2026-03-05)* · `Research`
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch) - AI agents running autonomous ML research on single-GPU nanochat training. The agent modifies training code, trains for 5 minutes, evaluates, keeps or discards the change, and repeats overnight. You write `program.md` to define the research org — "programming the program." *(2026-03-01)*
 
 ### February 2026
 
-- [/simplify and /batch (Boris Cherny)](https://x.com/bcherny/status/2027534984534544489) - Two new Claude Code skills: `/simplify` automates shepherding PRs to production by streamlining diffs and reducing complexity; `/batch` handles parallelizable code migrations across multiple files simultaneously. *(2026-02-28)*
-- [Harness Engineering (OpenAI)](https://openai.com/index/harness-engineering/) - OpenAI's framework for agent-first software development, where Codex agents generate, test, and deploy production systems while engineers focus on designing environments, specifying intent, and structured feedback. *(2026-02-28)*
-- [GPT-5.3-Codex (OpenAI)](https://openai.com/index/introducing-gpt-5-3-codex/) - OpenAI's most capable agentic coding model, combining frontier coding performance with the reasoning of GPT-5.2. Runs 25% faster, sets SOTA on SWE-Bench Pro and Terminal-Bench, and supports real-time steering mid-task. Available in Codex app, CLI, IDE extension, and web. *(2026-02-05)*
-- [lawwu/agentic-ml-plugin](https://github.com/lawwu/agentic-ml-plugin) - Tools that make each step of the machine learning lifecycle easier. *(2026-02-28)*
-- [Design (Anthropic)](https://github.com/anthropics/knowledge-work-plugins/tree/main/design) - Supports design critique, design systems, UX writing, accessibility review, research synthesis, and developer handoff. *(2026-02-24)*
-- [Human Resources (Anthropic)](https://github.com/anthropics/knowledge-work-plugins/tree/main/human-resources) - Covers recruiting, onboarding, performance reviews, policy guidance, and compensation analysis. *(2026-02-24)*
-- [Operations (Anthropic)](https://github.com/anthropics/knowledge-work-plugins/tree/main/operations) - Handles vendor management, process docs, change management, capacity planning, compliance tracking, and resource planning. *(2026-02-24)*
-- [Engineering (Anthropic)](https://github.com/anthropics/knowledge-work-plugins/tree/main/engineering) - A software engineering plugin primarily designed for Cowork. *(2026-02-24)*
+- [/simplify and /batch (Boris Cherny)](https://x.com/bcherny/status/2027534984534544489) - Two new Claude Code skills: `/simplify` automates shepherding PRs to production by streamlining diffs and reducing complexity; `/batch` handles parallelizable code migrations across multiple files simultaneously. *(2026-02-28)* · `Harness`
+- [Harness Engineering (OpenAI)](https://openai.com/index/harness-engineering/) - OpenAI's framework for agent-first software development, where Codex agents generate, test, and deploy production systems while engineers focus on designing environments, specifying intent, and structured feedback. *(2026-02-28)* · `Example`
+- [GPT-5.3-Codex (OpenAI)](https://openai.com/index/introducing-gpt-5-3-codex/) - OpenAI's most capable agentic coding model, combining frontier coding performance with the reasoning of GPT-5.2. Runs 25% faster, sets SOTA on SWE-Bench Pro and Terminal-Bench, and supports real-time steering mid-task. Available in Codex app, CLI, IDE extension, and web. *(2026-02-05)* · `Model`
+- [lawwu/agentic-ml-plugin](https://github.com/lawwu/agentic-ml-plugin) - Tools that make each step of the machine learning lifecycle easier. *(2026-02-28)* · `Harness`
+- [Design (Anthropic)](https://github.com/anthropics/knowledge-work-plugins/tree/main/design) - Supports design critique, design systems, UX writing, accessibility review, research synthesis, and developer handoff. *(2026-02-24)* · `Harness`
+- [Human Resources (Anthropic)](https://github.com/anthropics/knowledge-work-plugins/tree/main/human-resources) - Covers recruiting, onboarding, performance reviews, policy guidance, and compensation analysis. *(2026-02-24)* · `Harness`
+- [Operations (Anthropic)](https://github.com/anthropics/knowledge-work-plugins/tree/main/operations) - Handles vendor management, process docs, change management, capacity planning, compliance tracking, and resource planning. *(2026-02-24)* · `Harness`
+- [Engineering (Anthropic)](https://github.com/anthropics/knowledge-work-plugins/tree/main/engineering) - A software engineering plugin primarily designed for Cowork. *(2026-02-24)* · `Harness`
 
 ### January 2026
 
