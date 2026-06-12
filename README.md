@@ -20,6 +20,10 @@ I considered organizing things by category but thought a timeline organization w
 
 ## Timeline
 
+### June 2026
+
+- [Remio](https://remio.ai/) - Local-first personal knowledge base for agentic knowledge work. Pre-parses files, webpages, recordings, notes, emails, messages, and images into indexed and vector-retrievable context so agents can search and ask grounded questions without repeatedly scanning raw folders or spending excessive context tokens. *(2026-06-12)* · `Memory`
+
 ### April 2026
 
 - [Claude Design (Anthropic Labs)](https://www.anthropic.com/news/claude-design-anthropic-labs) - Figma-like collaborative design tool powered by Claude Opus 4.7. Build designs, prototypes, slides, and one-pagers through conversation, refine with inline edits and custom controls, then hand off directly to Claude Code for implementation. Available to Pro, Max, Team, and Enterprise subscribers. *(2026-04-17)*
